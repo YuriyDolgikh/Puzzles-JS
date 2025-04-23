@@ -32,10 +32,10 @@ function puzzle(question) {
     }
 }
 
-function findAnswers(qwestion) {
+function findAnswers(question) {
     const tasks = getTasks()
     for (let i = 0; i < tasks.length; i++) {
-        if (tasks[i].quest == qwestion) {
+        if (tasks[i].quest == question) {
             return tasks[i].ans
         }
     }
